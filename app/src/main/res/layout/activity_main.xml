@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/texto"
         android:layout_width="455dp"
         android:layout_height="90dp"
         android:text="NUMERO DE JUGADORES"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.13" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/numero"
         android:layout_width="251dp"
         android:layout_height="84dp"
         android:ems="10"
@@ -30,7 +30,7 @@
         tools:layout_editor_absoluteY="322dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botonC"
         android:layout_width="294dp"
         android:layout_height="146dp"
         android:text="Comenzar"
